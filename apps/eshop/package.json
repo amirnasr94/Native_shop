@@ -1,0 +1,27 @@
+{
+  "name": "e-shop",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~54.0.21",
+    "expo-status-bar": "~3.0.8",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "expo-splash-screen": "^31.0.10",
+    "expo-font": "^14.0.8"
+  },
+  "private": true,
+  "devDependencies": {
+    "@tsconfig/react-native": "^3.0.7",
+    "@types/react": "^19",
+    "@types/jest": "^30.0.0",
+    "@types/react-test-renderer": "^19.1.0",
+    "typescript": "^5.9.2"
+  }
+}
